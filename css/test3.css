@@ -1,0 +1,38 @@
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+.leftside {
+    width: 29%;
+    margin-right: 5px;
+    float:left;
+}
+.rightside  {
+    width:69%;
+    float: right;
+    margin-left: 5px;
+}
+#img {
+    height: 230px;
+    width: 230px;
+    border-radius: 200px;
+    padding: 0px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: block;
+}
+h3 {
+    border-bottom: 3px solid;
+}
+
+@media screen and (max-width:600px) {
+    .leftside,.rightside {
+        float: none;
+        width: 100%;
+    }
+    #img {
+        display: inline;
+    }
+
+}
